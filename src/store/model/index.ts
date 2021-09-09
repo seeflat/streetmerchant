@@ -39,6 +39,7 @@ import {BAndH} from './bandh';
 import {BestBuy} from './bestbuy';
 import {BestBuyCa} from './bestbuy-ca';
 import {Box} from './box';
+import {BigW} from './bigw';
 import {Bpctech} from './bpctech';
 import {BpmPower} from './bpmpower';
 import {BT} from './bt';
@@ -84,6 +85,7 @@ import {HardwarePlanet} from './hardware-planet';
 import {HarrisTechnology} from './harristechnology';
 import {HarveyNormanIE} from './harveynorman-ie';
 import {Igamecomputer} from './igame';
+import {JBHiFi} from './jbhifi';
 import {JohnLewis} from './johnlewis';
 import {Kabum} from './kabum';
 import {KomplettNO} from './komplett-no';
@@ -196,6 +198,7 @@ export const storeList = new Map([
   [BAndH.name, BAndH],
   [BestBuy.name, BestBuy],
   [BestBuyCa.name, BestBuyCa],
+  [BigW.name, BigW],
   [Box.name, Box],
   [Bpctech.name, Bpctech],
   [BpmPower.name, BpmPower],
@@ -242,6 +245,7 @@ export const storeList = new Map([
   [HarrisTechnology.name, HarrisTechnology],
   [HarveyNormanIE.name, HarveyNormanIE],
   [Igamecomputer.name, Igamecomputer],
+  [JBHiFi.name, JBHiFi],
   [JohnLewis.name, JohnLewis],
   [Kabum.name, Kabum],
   [KomplettNO.name, KomplettNO],

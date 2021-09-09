@@ -3,10 +3,13 @@ import {Store} from './store';
 export const Xbox: Store = {
   currency: '$',
   labels: {
+    inStock: {
+      container: 'button[prod="Xbox Series X"]',
+      text: ['Checkout'],
+    },
     outOfStock: {
-      container:
-        '._-_-node_modules--xbox-web-partner-core-build-pages-BundleBuilder-Components-BundleBuilderHeader-__BundleBuilderHeader-module___checkoutButton',
-      text: ['out of stock'],
+      container: 'button[prod="Xbox Series X"]',
+      text: ['Out of stock'],
     },
   },
   links: [
@@ -14,7 +17,7 @@ export const Xbox: Store = {
       brand: 'microsoft',
       model: 'xbox series x',
       series: 'xboxsx',
-      url: 'https://www.xbox.com/en-us/configure/8WJ714N3RBTL',
+      url: 'https://www.xbox.com/en-au/configure/8WJ714N3RBTL',
     },
   ],
   name: 'xbox',

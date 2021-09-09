@@ -3,46 +3,32 @@ import {Store} from './store';
 export const EbGames: Store = {
   currency: '$',
   labels: {
+    inStock: {
+      container: 'button#addToCartButton span',
+      text: ['Add to cart'],
+    },
     maxPrice: {
-      container: '.singleVariantText .prodPriceCont',
+      container: 'span[itemprop="price"]',
     },
     outOfStock: {
-      container: '#btnAddToCart[style*="display:none;"] ',
-      text: ['add to cart'],
+      container: '.error-panel h5',
+      text: ['The page may have been moved or deleted'],
     },
   },
   links: [
-    {
-      brand: 'test:brand',
-      model: 'test:model',
-      series: 'test:series',
-      url: 'https://www.ebgames.ca/Switch/Games/727918/mario-kart-8-deluxe',
-    },
-    {
-      brand: 'sony',
-      model: 'ps5 console',
-      series: 'sonyps5c',
-      url: 'https://www.ebgames.ca/PS5/Games/877522',
-    },
-    {
-      brand: 'sony',
-      model: 'ps5 digital',
-      series: 'sonyps5de',
-      url: 'https://www.ebgames.ca/PS5/Games/877523',
-    },
     {
       brand: 'microsoft',
       model: 'xbox series x',
       series: 'xboxsx',
       url:
-        'https://www.ebgames.ca/Xbox%20Series%20X/Games/877779/xbox-series-x',
+        'https://www.ebgames.com.au/product/xbox-series-x/267773-xbox-series-x-console',
     },
     {
       brand: 'microsoft',
       model: 'xbox series s',
       series: 'xboxss',
       url:
-        'https://www.ebgames.ca/Xbox%20Series%20X/Games/877780/xbox-series-s',
+        'https://www.ebgames.com.au/product/xbox-series-x/267774-xbox-series-s-console',
     },
   ],
   name: 'ebgames',

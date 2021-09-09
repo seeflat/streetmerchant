@@ -30,3 +30,17 @@ cd streetmerchant && npm i && npm run start
 ```
 
 For more information and customization, visit [jef.buzz/streetmerchant/getting-started](https://jef.buzz/streetmerchant/getting-started).
+
+
+
+
+
+
+TODO:
+Harvey Norman https://www.harveynorman.com.au/xbox-series-x-1tb.html
+Dick Smith/Kogan https://www.dicksmith.com.au/da/buy/xbox-series-x-console-xbox/
+Microsoft Australia https://www.microsoft.com/en-au/p/xbox-series-x/8wj714n3rbtl
+Amazon AU https://www.amazon.com.au/Microsoft-RRT-00021-Xbox-Series-Console/dp/B08HLW5TDS
+EB Games https://www.ebgames.com.au/product/xbox-series-x/267773-xbox-series-x-console
+The Good Guys https://www.thegoodguys.com.au/xbox-series-x-1tb-rrt-00021
+
