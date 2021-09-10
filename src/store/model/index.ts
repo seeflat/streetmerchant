@@ -81,6 +81,7 @@ import {Futurex} from './futurex';
 import {Galaxus} from './galaxus';
 import {Game} from './game';
 import {GameES} from './game-es';
+import {Gamesmen} from './gamesmen';
 import {Gamestop} from './gamestop';
 import {GamestopCA} from './gamestop-ca';
 import {GamestopDE} from './gamestop-de';
@@ -251,6 +252,7 @@ export const storeList = new Map([
   [Galaxus.name, Galaxus],
   [Game.name, Game],
   [GameES.name, GameES],
+  [Gamesmen.name, Gamesmen],
   [Gamestop.name, Gamestop],
   [GamestopCA.name, GamestopCA],
   [GamestopDE.name, GamestopDE],
